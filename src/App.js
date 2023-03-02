@@ -5,7 +5,11 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-
+import Navbar from "./components/Navbar.js";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
  
