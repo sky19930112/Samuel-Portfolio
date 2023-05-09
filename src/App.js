@@ -12,7 +12,11 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
- 
+  return (
+    <div>
+      <h1>hi hi</h1>
+    </div>
+  )
 }
 
 export default App;
