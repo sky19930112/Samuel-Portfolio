@@ -1,16 +1,10 @@
-import React, { useState, useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.js";
 import Home from "./components/Home/Home.js";
 import About from "./components/About/About.js";
 import Projects from "./components/Projects/Projects.js";
 import Footer from "./components/Footer/Footer.js";
 import Resume from "./components/Resume/Resume.js";
+
 
 function App() {
   return (
