@@ -7,7 +7,9 @@ const About = () => {
             <img src={require('./Samuel.jpg')}alt="Samuel"className="photo" />
             <br/>
             <>Name: Samuel Hsu</>
-            <p>I was once a musician, EMT, luthier, and woodworler. I had been expeirenced several different kind of jobs as advantures. Now this is time for me to start my journey as a software engineer.</p>
+            <p>
+            Full Stack Web Developer who recently earned a certificate in Full Stack Web Development Program from The Coding Boot Camp at UT Austin. Expertise in MERN stack, MVC stack, Node.js, Express.js, MySQL, NoSQL, React.js, PWA, JavaScript, CSS, and HTML. Experienced deploying via git bash to GitHub and Heroku. A penchant problem solver who can search and figure out how to identify the problem and find solutions to achieve the goal.
+            </p>
         </div>
     )
 }
