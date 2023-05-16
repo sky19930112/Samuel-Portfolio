@@ -9,16 +9,18 @@ import PasswordGenerate from "./PasswordGenerate.jpg"
 function Work() {
     return (
       <section>
-        <p>Portfolio</p>
+        <h1>Projects</h1>
 
         <div>
             <img src={HTML} className="photo" />
             <div class="">
               <a href="https://github.com/sky19930112/HTML-CSS-Challenge">
-                <button>GitHub</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
               </a>
               <a href="https://sky19930112.github.io/HTML-CSS-Challenge/">
-                <button>Deployed Website</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
               </a>
             </div>
         </div>
@@ -27,10 +29,12 @@ function Work() {
             <img src={Profolio} className="photo" />
             <div class="">
               <a href="https://github.com/sky19930112/Portfolios">
-                <button>GitHub</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
               </a>
               <a href="https://sky19930112.github.io/Portfolios/">
-                <button>Deployed Website</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
               </a>
             </div>
         </div>
@@ -39,10 +43,12 @@ function Work() {
             <img src={PopQuiz} className="photo" />
             <div class="">
               <a href="https://github.com/sky19930112/popQuizzes">
-                <button>GitHub</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
               </a>
               <a href="https://sky19930112.github.io/popQuizzes/">
-                <button>Deployed Website</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
               </a>
             </div>
         </div>
@@ -51,10 +57,12 @@ function Work() {
             <img src={Scheduler} className="photo" />
             <div class="">
               <a href="https://github.com/sky19930112/DailyScheduler">
-                <button>GitHub</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
               </a>
               <a href="https://sky19930112.github.io/DailyScheduler/">
-                <button>Deployed Website</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
               </a>
             </div>
         </div>
@@ -63,10 +71,12 @@ function Work() {
             <img src={PasswordGenerate} className="photo" />
             <div class="">
               <a href="https://github.com/sky19930112/password-generator">
-                <button>GitHub</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
               </a>
               <a href="https://sky19930112.github.io/password-generator/">
-                <button>Deployed Website</button>
+                <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
               </a>
             </div>
         </div>

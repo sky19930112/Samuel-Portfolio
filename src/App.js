@@ -9,7 +9,6 @@ import Resume from "./components/Resume/Resume.js";
 function App() {
   return (
     <div>
-      <h1 className="text-2xl font-bold">hello</h1>
       <Navbar />
       <About />
       <Projects />
