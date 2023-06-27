@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function Contact() {
     return (
-      <section name='contact' className='w-full h-screen bg-black' flex justify-center items-center p-4>
+      <section name='contact' className='w-full h-screen bg-black flex justify-center items-center p-4'>
         <form method='post' action="https://getform.io/f/c8bc4018-ec0f-41f6-9cde-1d8d84f60b56" className='flex flex-col max-w-[600px] w-full'>
           <div className='pd-8'>
             <p className='text-4xl font-bold inline border-b-4 border-red-600 text-gray-300'>Contact</p>
