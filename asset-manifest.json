@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sky19930112/Samuel-Portfolio/static/css/main.48b8eb95.css",
+    "main.js": "/sky19930112/Samuel-Portfolio/static/js/main.0eb62ae3.js",
+    "static/media/HTML.jpg": "/sky19930112/Samuel-Portfolio/static/media/HTML.40c7ac3dbde37db9df9a.jpg",
+    "static/media/Profolio.jpg": "/sky19930112/Samuel-Portfolio/static/media/Profolio.0e89952a91a73befdd36.jpg",
+    "static/media/Scheduler.jpg": "/sky19930112/Samuel-Portfolio/static/media/Scheduler.906cc77d7ec41916c742.jpg",
+    "static/media/PasswordGenerate.jpg": "/sky19930112/Samuel-Portfolio/static/media/PasswordGenerate.c4eb6122df097b00ca8d.jpg",
+    "static/media/Resume.pdf": "/sky19930112/Samuel-Portfolio/static/media/Resume.9a56bce22dac9af32639.pdf",
+    "static/media/PopQuiz.jpg": "/sky19930112/Samuel-Portfolio/static/media/PopQuiz.de9c5dcaa1e865d64388.jpg",
+    "index.html": "/sky19930112/Samuel-Portfolio/index.html",
+    "main.48b8eb95.css.map": "/sky19930112/Samuel-Portfolio/static/css/main.48b8eb95.css.map",
+    "main.0eb62ae3.js.map": "/sky19930112/Samuel-Portfolio/static/js/main.0eb62ae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b8eb95.css",
+    "static/js/main.0eb62ae3.js"
+  ]
+}
