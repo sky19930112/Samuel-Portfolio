@@ -16,28 +16,15 @@ function Projects() {
 
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <div>
-                <img src={HTML} className="photo" />
-                <div class="">
-                    <a href="https://github.com/sky19930112/HTML-CSS-Challenge">
-                      <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
-                    </a>
-                    <a href="https://sky19930112.github.io/HTML-CSS-Challenge/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
-                    </a>
-                </div>
-              </div>
        
             <div>
               <img src={Profolio} className="photo" />
               <div class="">
-                <a href="https://github.com/sky19930112/Portfolios">
+                <a href="https://github.com/sky19930112/MusicTheory">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
                 </a>
-                <a href="https://sky19930112.github.io/Portfolios/">
+                <a href="https://sky19930112.github.io/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
                 </a>
@@ -66,20 +53,6 @@ function Projects() {
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
                 </a>
                 <a href="https://sky19930112.github.io/DailyScheduler/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <img src={PasswordGenerate} className="photo" />
-              <div class="">
-                <a href="https://github.com/sky19930112/password-generator">
-                  <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
-                </a>
-                <a href="https://sky19930112.github.io/password-generator/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
                 </a>
