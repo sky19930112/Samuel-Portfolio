@@ -32,20 +32,6 @@ function Projects() {
             </div>
 
             <div>
-              <img src={} className="photo" />
-              <div class="">
-                <a href="">
-                  <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
-                </a>
-                <a href="https://github.com/sky19930112/TomatoClock">
-                  <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
-                </a>
-              </div>
-            </div>
-
-            <div>
               <img src={PopQuiz} className="photo" />
               <div class="">
                 <a href="https://github.com/sky19930112/popQuizzes">
