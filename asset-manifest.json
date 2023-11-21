@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Samuel-Portfolio/static/css/main.48b8eb95.css",
-    "main.js": "/Samuel-Portfolio/static/js/main.656139cc.js",
+    "main.css": "/Samuel-Portfolio/static/css/main.7d518681.css",
+    "main.js": "/Samuel-Portfolio/static/js/main.bc8d2582.js",
     "static/media/HTML.jpg": "/Samuel-Portfolio/static/media/HTML.40c7ac3dbde37db9df9a.jpg",
     "static/media/Profolio.jpg": "/Samuel-Portfolio/static/media/Profolio.0e89952a91a73befdd36.jpg",
     "static/media/Scheduler.jpg": "/Samuel-Portfolio/static/media/Scheduler.906cc77d7ec41916c742.jpg",
     "static/media/PasswordGenerate.jpg": "/Samuel-Portfolio/static/media/PasswordGenerate.c4eb6122df097b00ca8d.jpg",
-    "static/media/Resume.pdf": "/Samuel-Portfolio/static/media/Resume.9a56bce22dac9af32639.pdf",
     "static/media/PopQuiz.jpg": "/Samuel-Portfolio/static/media/PopQuiz.de9c5dcaa1e865d64388.jpg",
+    "static/media/Resume.pdf": "/Samuel-Portfolio/static/media/Resume.5e1c85d44ad8985f8e30.pdf",
     "index.html": "/Samuel-Portfolio/index.html",
-    "main.48b8eb95.css.map": "/Samuel-Portfolio/static/css/main.48b8eb95.css.map",
-    "main.656139cc.js.map": "/Samuel-Portfolio/static/js/main.656139cc.js.map"
+    "main.7d518681.css.map": "/Samuel-Portfolio/static/css/main.7d518681.css.map",
+    "main.bc8d2582.js.map": "/Samuel-Portfolio/static/js/main.bc8d2582.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b8eb95.css",
-    "static/js/main.656139cc.js"
+    "static/css/main.7d518681.css",
+    "static/js/main.bc8d2582.js"
   ]
 }
