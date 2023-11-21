@@ -24,7 +24,7 @@ function Projects() {
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
                 </a>
-                <a href="https://sky19930112.github.io/">
+                <a href="https://sky19930112.github.io/MusicTheory/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
                 </a>
