@@ -10,7 +10,7 @@ const About = () => {
                     </div>
                     <div className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Samuel Hsu</div>
                     <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                        <p>Full Stack Web Developer who recently earned a certificate in Full Stack Web Development Program from The Coding Boot Camp at UT Austin. Expertise in MERN stack, MVC stack, Node.js, Express.js, MySQL, NoSQL, React.js, PWA, JavaScript, CSS, and HTML. Experienced deploying via git bash to GitHub and Heroku. A penchant problem solver who can search and figure out how to identify the problem and find solutions to achieve the goal.</p>
+                        <p>Full Stack Web Developer with a certificate from The Coding Boot Camp at UT Austin (Center for Professional Education). Proficient in a range of technologies including the MERN stack, React JS, Node.js, Express.js, NoSQL, React.js, JavaScript, CSS, and HTML. Skilled in deployment using git bash to GitHub and Heroku. I thrive on tackling challenges, employing problem-solving skills to identify issues and craft effective solutions to meet objectives.</p>
                     </div>
 
                 </div>
