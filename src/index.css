@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .photo {
-    width: 500px;
+    width: 312px;
+    height: 176px;
   margin: auto;
 }
 

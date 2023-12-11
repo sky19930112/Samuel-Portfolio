@@ -18,7 +18,7 @@ function Projects() {
        
             <div>
               <img src={MusicPage} className="photo" />
-              <div class="">
+              <div class="btn">
                 <a href="https://github.com/sky19930112/MusicTheory">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
@@ -29,10 +29,9 @@ function Projects() {
                 </a>
               </div>
             </div>
-
             <div>
               <img src={PopQuiz} className="photo" />
-              <div class="">
+              <div class="btn">
                 <a href="https://github.com/sky19930112/popQuizzes">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
@@ -43,10 +42,9 @@ function Projects() {
                 </a>
               </div>
             </div>
-
             <div>
               <img src={Scheduler} className="photo" />
-              <div class="">
+              <div class="btn">
                 <a href="https://github.com/sky19930112/DailyScheduler">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
@@ -57,10 +55,9 @@ function Projects() {
                 </a>
               </div>
             </div>
-
             <div>
               <img src={PasswordGenerate} className="photo" />
-              <div class="">
+              <div class="btn">
                 <a href="https://github.com/sky19930112/password-generator">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg">GitHub</button>
