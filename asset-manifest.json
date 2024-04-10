@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Samuel-Portfolio/static/css/main.df374a3b.css",
-    "main.js": "/Samuel-Portfolio/static/js/main.84f6346d.js",
+    "main.css": "/Samuel-Portfolio/static/css/main.5a8cb8d8.css",
+    "main.js": "/Samuel-Portfolio/static/js/main.16d12264.js",
     "static/media/Scheduler.jpg": "/Samuel-Portfolio/static/media/Scheduler.906cc77d7ec41916c742.jpg",
     "static/media/PasswordGenerate.jpg": "/Samuel-Portfolio/static/media/PasswordGenerate.c4eb6122df097b00ca8d.jpg",
     "static/media/PopQuiz.jpg": "/Samuel-Portfolio/static/media/PopQuiz.de9c5dcaa1e865d64388.jpg",
     "static/media/Resume.pdf": "/Samuel-Portfolio/static/media/Resume.552162dfd074eff6a609.pdf",
     "static/media/MusicPage.png": "/Samuel-Portfolio/static/media/MusicPage.9a08e133b9618b5efef7.png",
+    "static/media/background.jpg": "/Samuel-Portfolio/static/media/background.9b77ce87cf4033075bc0.jpg",
     "index.html": "/Samuel-Portfolio/index.html",
-    "main.df374a3b.css.map": "/Samuel-Portfolio/static/css/main.df374a3b.css.map",
-    "main.84f6346d.js.map": "/Samuel-Portfolio/static/js/main.84f6346d.js.map"
+    "main.5a8cb8d8.css.map": "/Samuel-Portfolio/static/css/main.5a8cb8d8.css.map",
+    "main.16d12264.js.map": "/Samuel-Portfolio/static/js/main.16d12264.js.map"
   },
   "entrypoints": [
-    "static/css/main.df374a3b.css",
-    "static/js/main.84f6346d.js"
+    "static/css/main.5a8cb8d8.css",
+    "static/js/main.16d12264.js"
   ]
 }
