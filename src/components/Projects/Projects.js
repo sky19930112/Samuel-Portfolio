@@ -16,7 +16,7 @@ function Projects() {
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
        
-            <div>
+            <div className="hover:scale-110 duration-500">
               <img src={MusicPage} className="photo" />
               <div class="btn">
                 <a href="https://github.com/sky19930112/MusicTheory">
@@ -29,7 +29,7 @@ function Projects() {
                 </a>
               </div>
             </div>
-            <div>
+            <div className="hover:scale-110 duration-500">
               <img src={PopQuiz} className="photo" />
               <div class="btn">
                 <a href="https://github.com/sky19930112/popQuizzes">
@@ -42,7 +42,7 @@ function Projects() {
                 </a>
               </div>
             </div>
-            <div>
+            <div className="hover:scale-110 duration-500">
               <img src={Scheduler} className="photo" />
               <div class="btn">
                 <a href="https://github.com/sky19930112/DailyScheduler">
@@ -55,7 +55,7 @@ function Projects() {
                 </a>
               </div>
             </div>
-            <div>
+            <div className="hover:scale-110 duration-500">
               <img src={PasswordGenerate} className="photo" />
               <div class="btn">
                 <a href="https://github.com/sky19930112/password-generator">
