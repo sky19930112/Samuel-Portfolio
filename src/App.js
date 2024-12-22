@@ -7,9 +7,9 @@ import Home from "./components/Home/Home.js";
 import About from "./components/About/About.js";
 import Skills from "./components/skills/skills.js";
 import Projects from "./components/Projects/Projects.js";
-import Footer from "./components/Footer/Footer.js";
-import Resume from "./components/Resume/Resume.js";
 import Contact from "./components/Contacts/Contact.js";
+import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoute.js';
+
 
 
 function App() {
@@ -17,14 +17,7 @@ function App() {
     <>
       <Router>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Skills" element={<Skills />} />
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
+          <AnimatedRoutes />
       </Router>
     </>
   )

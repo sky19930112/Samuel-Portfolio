@@ -14,12 +14,12 @@ function AnimatedRoutes (){
     return(
         <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/About" component={About} />
-            <Route exact path="/Skills" component={Skills} />
-            <Route exact path="/Projects" component={Projects} />
-            <Route exact path="/Contact" component={Contact} />
-            <Navigate  to="/" />
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         </AnimatePresence>
     )

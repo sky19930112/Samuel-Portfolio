@@ -1,8 +1,10 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-[#bd8049] '>
+        <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:"100%", transition:{duration:0.1}}}
+        name='about' className='w-full h-screen bg-[#bd8049] '>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-4 grid-col2 gap-8 sm:text-center'>
                     <div className='sm:text-center'>
@@ -14,7 +16,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

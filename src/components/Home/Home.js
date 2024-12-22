@@ -1,10 +1,12 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import samuel from './background.jpg'
+import {motion} from 'framer-motion'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-black' style={{ backgroundImage: `url(${samuel})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPositionX: '75%',}}>
+    <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:"100%", transition:{duration:0.1}}}
+    name='home' className='w-full h-screen bg-black' style={{ backgroundImage: `url(${samuel})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPositionX: '75%',}}>
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full'>
         
         <h1 className="text-5xl font-bold mb-8 relative group cursor-pointer">
@@ -35,7 +37,7 @@ const Home = () => {
             </div>
             */}
       </div>
-    </div>
+    </motion.div>
   )
 }
 

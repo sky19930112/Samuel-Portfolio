@@ -1,20 +1,13 @@
 import React from 'react';
+import {motion} from 'framer-motion'
 
-/*
-import HTML from '..\image\html.jpg';
-import CSS from '..\image\css.png';
-import JavaScript from '..\image\JavaScript.png';
-import Node from '..\image\Node.png';
-import GitHub from '..\image\GitHub.png';
-import ReactImg from '..\image\React.png';
-import Mongo from '..\image\MongoDB.png';
-import Python from '..\image\Python.png';
-*/
+
 
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#5379f5] text-gray-300 sm:text-center'>
+        <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:"100%", transition:{duration:0.1}}}
+        name='skills' className='w-full h-screen bg-[#5379f5] text-gray-300 sm:text-center'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
@@ -57,7 +50,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-      </div>
+      </motion.div>
     )
 }
 
