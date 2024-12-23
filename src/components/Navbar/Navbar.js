@@ -18,19 +18,24 @@ const Navbar = () => {
                 <img src={logo} style={{ width: '90px', height: '80px' }}/>
             </div>
             <ul className='hidden md:flex text-emerald-400 text-lg font-medium transition-all duration-300 ease-in-out space-x-6 absolute left-1/2 -translate-x-1/2'>
-                <li className=' hover:text-pink-500 hover:scale-110'>
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
+                 hover:text-[#0a192f] hover:scale-110'>
                     <Link to='/' smooth={true} duration={500}>Home</Link>
                 </li>
-                <li className=' hover:text-pink-500 hover:scale-110'>
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
+                 hover:text-[#0a192f] hover:scale-110'>
                     <Link to='/about' smooth={true} duration={500}>About</Link>
                 </li>
-                <li className='  hover:text-pink-500 hover:scale-110'>
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
+                 hover:text-[#0a192f] hover:scale-110'>
                     <Link to='/skills' smooth={true} duration={500}>Skills</Link>
                 </li>
-                <li className='  hover:text-pink-500 hover:scale-110'> 
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
+                 hover:text-[#0a192f] hover:scale-110'> 
                     <Link to='/Projects' smooth={true} duration={500}>Projects</Link>
                 </li>
-                <li className='  hover:text-pink-500 hover:scale-110'>
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
+                  hover:text-[#0a192f] hover:scale-110'>
                     <Link to='contact' smooth={true} duration={500}>Contact</Link>
                 </li>
             </ul>
