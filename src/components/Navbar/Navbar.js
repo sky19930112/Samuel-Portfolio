@@ -17,9 +17,9 @@ const Navbar = () => {
             <div className='flex items-center'>
                 <img src={logo} style={{ width: '90px', height: '80px' }}/>
             </div>
-            <ul className='hidden md:flex text-emerald-400 text-lg font-medium transition-all duration-300 ease-in-out space-x-6 absolute left-1/2 -translate-x-1/2'>
-                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
-                 hover:text-[#0a192f] hover:scale-110'>
+            <ul className='hidden md:flex text-emerald-400 text-lg font-medium transition-all duration-300 ease-in-out space-x-6 absolute left-1/2 -translate-x-1/2 hover:text-3xl'>
+                <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full 
+                 hover:text-[#0a192f] hover:scale-110 hover:text-3xl'>
                     <Link to='/' smooth={true} duration={500}>Home</Link>
                 </li>
                 <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full
