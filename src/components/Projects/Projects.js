@@ -23,11 +23,11 @@ function Projects() {
               <div class="btn">
                 <a href="https://github.com/sky19930112/MusicTheory">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
                 <a href="https://sky19930112.github.io/MusicTheory/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
               </div>
             </div>
@@ -36,11 +36,11 @@ function Projects() {
               <div class="btn">
                 <a href="https://github.com/sky19930112/popQuizzes">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
                 <a href="https://sky19930112.github.io/popQuizzes/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
               </div>
             </div>
@@ -49,11 +49,11 @@ function Projects() {
               <div class="btn">
                 <a href="https://github.com/sky19930112/DailyScheduler">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
                 <a href="https://sky19930112.github.io/DailyScheduler/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
               </div>
             </div>
@@ -62,11 +62,11 @@ function Projects() {
               <div class="btn">
                 <a href="https://github.com/sky19930112/password-generator">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">GitHub</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
                 <a href="https://sky19930112.github.io/password-generator/">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">Deployed Website</button>
+                       bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
               </div>
             </div>
