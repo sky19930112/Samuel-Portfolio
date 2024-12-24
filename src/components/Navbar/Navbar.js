@@ -6,6 +6,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import logo from './Logo.webp'
 import './Navbar.css';
+import DarkMode from '../DarkMode/DarkMode.js';
 
 
 const Navbar = () => {
@@ -16,6 +17,7 @@ const Navbar = () => {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-50'>
             <div className='flex items-center'>
                 <img src={logo} style={{ width: '90px', height: '80px' }}/>
+                <DarkMode />
             </div>
             <ul className='hidden md:flex text-emerald-400 text-lg font-medium transition-all duration-300 ease-in-out space-x-6 absolute left-1/2 -translate-x-1/2 hover:text-3xl'>
                 <li className='transition ease-in-out delay-150 bg-[#0a192f] hover:-translate-y-1  hover:bg-emerald-400 duration-300 ... rounded-full 

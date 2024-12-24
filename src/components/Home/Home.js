@@ -2,11 +2,19 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import samuel from './background.jpg'
 import {motion} from 'framer-motion'
+import './Home.css'
 
 const Home = () => {
   return (
-    <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:"100%", transition:{duration:0.1}}}
-    name='home' className='w-full h-screen bg-black bg-[center_top_9rem]'  style={{ backgroundImage: `url(${samuel})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPositionX: '75%',}}>
+    
+    <motion.div 
+    initial={{width:0}} 
+    animate={{width:"100%"}} 
+    exit={{x:"100%", transition:{duration:0.1}}}
+    name='home' 
+    className='current-page w-full h-screen bg-[center_top_9rem]'  
+    style={{ backgroundImage: `url(${samuel})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPositionX: '75%',}}>
+      
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full'>
         
         <h1 className="text-8xl font-bold mb-8 relative group cursor-pointer">
@@ -38,6 +46,7 @@ const Home = () => {
             */}
       </div>
     </motion.div>
+ 
   )
 }
 

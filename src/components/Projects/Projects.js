@@ -8,8 +8,12 @@ import {motion} from 'framer-motion'
 
 function Projects() {
     return (
-        <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:"100%", transition:{duration:0.1}}}
-        name='Projects' className='w-full md:h-screen text-gray-300 bg-[#0e2779]'>
+        <motion.div 
+        initial={{width:0}} 
+        animate={{width:"100%"}} 
+        exit={{x:"100%", transition:{duration:0.1}}}
+        name='Projects' 
+        className='current-page w-full md:h-screen text-gray-300 bg-[#0e2779]'>
           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
               <p className='text-6xl font-bold text-gray-300 text-center'>Projects</p>

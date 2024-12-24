@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .photo {
     width: 312px;
     height: 176px;
@@ -17,4 +18,5 @@
     @apply cursor-pointer
   }
 }
+
 

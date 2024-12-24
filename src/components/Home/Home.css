@@ -1,0 +1,15 @@
+.current-page [data-theme='light']{
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.current-page[data-theme='dark'] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+/* Apply variables globally */
+.current-page {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
