@@ -14,7 +14,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-50'>
+        <div className='button-container fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-50'>
             <div className='flex items-center'>
                 <img src={logo} style={{ width: '90px', height: '80px' }}/>
                 <DarkMode />

@@ -1,6 +1,7 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-
+import theme from '../../assets/theme.mkv'
+import theme2 from '../../assets/theme2.mkv'
 
 
 
@@ -11,11 +12,23 @@ const Skills = () => {
         animate={{width:"100%"}} 
         exit={{x:"100%", transition:{duration:0.1}}}
         name='skills' 
-        className='current-page w-full md:h-screen bg-[#5379f5] text-gray-300 sm:text-center'>
+        className='current-page w-full md:h-screen bg-[#5379f5] sm:text-center'>
+
+        <video
+            className="background-video absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+            src={theme}
+            autoPlay
+            loop
+            muted
+            style={{ pointerEvents: "none" }}
+        />
+
+
+
         {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                <p className='text-6xl font-bold text-gray-300 text-center'>Skills</p>
+                <p className='text-6xl font-bold text-center'>Skills</p>
                 </div>
   
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 text-2xl'>

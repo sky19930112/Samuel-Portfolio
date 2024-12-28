@@ -20,3 +20,39 @@
 }
 
 
+.current-page [data-theme='light']{
+ 
+  --text-color: #000000;
+}
+
+.current-page[data-theme='dark'] {
+  
+  --text-color: #ffffff;
+}
+
+input {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* Apply variables globally */
+.current-page {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.background-video {
+  pointer-events: none;
+}
+
+.button-container {
+  position: relative;
+  z-index: 10; /* 確保比 video 的 z-index 大 */
+}

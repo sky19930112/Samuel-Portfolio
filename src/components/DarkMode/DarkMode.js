@@ -2,14 +2,22 @@ import React from "react";
 import { ReactComponent as Sun } from "./Sun.svg";
 import { ReactComponent as Moon } from "./Moon.svg";
 import "./DarkMode.css";
+import theme from '../../assets/theme.mkv'
+import theme2 from '../../assets/theme2.mkv'
 
 const DarkMode = () => {
     const setDarkMode = () => {
-        document.querySelector(".current-page").setAttribute('data-theme', 'dark')
+        const page = document.querySelector(".current-page");
+        page.setAttribute("data-theme", "dark");
+        const video = document.querySelector(".background-video");
+        if (video) video.setAttribute("src", theme2);
     }
 
     const setLightMode = () => {
-        document.querySelector(".current-page").setAttribute('data-theme', 'light')
+        const page = document.querySelector(".current-page");
+        page.setAttribute("data-theme", "light");
+        const video = document.querySelector(".background-video");
+        if (video) video.setAttribute("src", theme); 
     }
     const changeTheme = e => {
         if (e.target.checked){
