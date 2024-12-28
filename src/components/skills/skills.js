@@ -19,35 +19,35 @@ const Skills = () => {
   
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 text-2xl'>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>JavaScript</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>TypeScript</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>React. JS</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>Tailwind</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>CSS</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>NODE JS</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>MangoDB</p>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl  hover:text-black hover:font-bold'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-3xl   hover:font-bold'>
                         <p className='my-4 text-2xl sm:text-3xl h-12'>MERN Stack</p>
                     </div>
                 </div>

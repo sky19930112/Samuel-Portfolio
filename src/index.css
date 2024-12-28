@@ -63,6 +63,6 @@ body[data-theme="dark"] {
 }
 
 body {
-  overflow: hidden; /* 防止意外滾動條 */
+  overflow: hidden;
 }
 
