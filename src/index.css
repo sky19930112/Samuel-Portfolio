@@ -20,15 +20,6 @@
 }
 
 
-.current-page [data-theme='light']{
- 
-  --text-color: #000000;
-}
-
-.current-page[data-theme='dark'] {
-  
-  --text-color: #ffffff;
-}
 
 input {
   background-color: white;
@@ -42,7 +33,6 @@ textarea {
   border: 1px solid #ccc;
 }
 
-/* Apply variables globally */
 .current-page {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -54,5 +44,20 @@ textarea {
 
 .button-container {
   position: relative;
-  z-index: 10; /* 確保比 video 的 z-index 大 */
+  z-index: 10; 
+}
+
+body[data-theme="light"] {
+  --text-color: #000;
+ 
+}
+
+body[data-theme="dark"] {
+  --text-color: #fff;
+ 
+}
+
+.current-page {
+  color: var(--text-color);
+ 
 }

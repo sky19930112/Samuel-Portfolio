@@ -6,28 +6,15 @@ import Scheduler from "./Scheduler.jpg"
 import PasswordGenerate from "./PasswordGenerate.jpg"
 import {motion} from 'framer-motion'
 
-import theme from '../../assets/theme.mkv'
-import theme2 from '../../assets/theme2.mkv'
-
 function Projects() {
     return (
         <motion.div 
         initial={{width:0}} 
         animate={{width:"100%"}} 
-        exit={{x:"100%", transition:{duration:0.1}}}
+        exit={{x:"100%", transition:{duration:1}}}
         name='Projects' 
         className='current-page w-full md:h-screen bg-[#0e2779]'>
 
-        <video
-          className="background-video absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-          src={theme}
-          autoPlay
-          loop
-          muted
-          style={{ pointerEvents: "none" }}
-        />
-
-        
           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
               <p className='text-6xl font-bold text-center'>Projects</p>

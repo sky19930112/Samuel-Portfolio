@@ -1,34 +1,18 @@
 import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons/hi'
-import samuel from './background.jpg'
 import {motion} from 'framer-motion'
 import './Home.css'
-import theme from '../../assets/theme.mkv'
-import theme2 from '../../assets/theme2.mkv'
 
 const Home = () => {
   return (
-    
     <motion.div 
     initial={{width:0}} 
     animate={{width:"100%"}} 
-    exit={{x:"100%", transition:{duration:0.1}}}
+    exit={{x:"100%", transition:{duration:1}}}
     name='home' 
     className='current-page relative  w-full h-screen bg-[center_top_9rem]'  
     data-theme="light"
     >
       
-
-      <video
-        className="background-video absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-        src={theme}
-        autoPlay
-        loop
-        muted
-        style={{ pointerEvents: "none" }}
-      />
-
-
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full'>
         
         <h1 className="text-8xl font-bold mb-8 relative group cursor-pointer">

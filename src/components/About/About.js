@@ -1,25 +1,15 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import theme from '../../assets/theme.mkv'
-import theme2 from '../../assets/theme2.mkv'
+
 
 const About = () => {
     return (
         <motion.div 
         initial={{width:0}} 
         animate={{width:"100%"}} 
-        exit={{x:"100%", transition:{duration:0.1}}}
+        exit={{x:"100%", transition:{duration:1}}}
         name='about' 
         className='current-page w-full h-screen bg-[#bd8049] '>
-
-            <video
-                className="background-video absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-                src={theme}
-                autoPlay
-                loop
-                muted
-                style={{ pointerEvents: "none" }}
-            />
 
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-4 grid-col2 gap-8 sm:text-center'>
