@@ -1,26 +1,35 @@
 import React, { useState, useEffect }  from 'react'
-import {motion} from 'framer-motion'
-
+import {motion, useMotionValue, useTransform} from 'framer-motion'
 import './Home.css'
 
 const Home = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  const samuelX = useTransform(mouseX, (value) => value * 0.01);
+  const samuelY = useTransform(mouseY, (value) => value * 0.01);
+
+  const developerX = useTransform(samuelX, (value) => -value * 5); 
+  const developerY = useTransform(samuelY, (value) => -value * 5);
+
+  const ideasX = useTransform(mouseX, (value) => value * 0.08);
+  const ideasY = useTransform(mouseY, (value) => value * 0.08);
+
   useEffect(() => {
     const handleMouseMove = (event) => {
-      setMousePosition({
-        x: event.clientX,
-        y: event.clientY,
-      });
+      const { clientX, clientY } = event;
+      const centerX = window.innerWidth / 2;
+      const centerY = window.innerHeight / 2;
+
+      mouseX.set(clientX - centerX);
+      mouseY.set(clientY - centerY);
     };
+
     window.addEventListener('mousemove', handleMouseMove);
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []);
-  const calculateOffset = (factor) => ({
-    x: (mousePosition.x - window.innerWidth / 2) * factor,
-    y: (mousePosition.y - window.innerHeight / 2) * factor,
-  });
+  }, [mouseX, mouseY]);
 
   return (
     <motion.div 
@@ -36,7 +45,7 @@ const Home = () => {
         
         <motion.h1 
         className="text-8xl font-bold mb-8 relative group cursor-pointer"
-        style={{ translateX: calculateOffset(0.02).x, translateY: calculateOffset(0.02).y }}
+        style={{ x: samuelX, y: samuelY }}
         >
           <span className="relative z-10 transition-colors duration-300 group-hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">
             Samuel Hsu
@@ -46,7 +55,7 @@ const Home = () => {
 
         <motion.p 
         className="text-4xl mb-6 relative group cursor-pointer"
-        style={{ translateX: calculateOffset(0.04).x, translateY: calculateOffset(0.04).y }}
+        style={{ x: developerX, y: developerY }}
         >
           <span className="relative z-10 transition-all duration-300 group-hover:text-blue-600 ">
             A Full Stack Web Developer
@@ -56,7 +65,7 @@ const Home = () => {
 
         <motion.p 
         className="text-3xl relative group cursor-pointer overflow-hidden"
-        style={{ translateX: calculateOffset(0.06).x, translateY: calculateOffset(0.06).y }}
+        style={{ x: ideasX, y: ideasY }}
         >
           <span className="relative z-10 transition-all duration-150  group-hover:text-blue-600">
             Turning Ideas into Interactive Experiences

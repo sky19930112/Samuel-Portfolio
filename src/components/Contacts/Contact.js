@@ -13,8 +13,8 @@ function Contact() {
 
         <form method='post' action="https://getform.io/f/c8bc4018-ec0f-41f6-9cde-1d8d84f60b56" className='flex flex-col max-w-[600px] w-full'>
           <div className='pd-8'>
-            <p className='text-4xl font-bold'>Contact</p>
-            <p className='py-4'>Email me: samuelhsu.work@outloock.com</p>
+            <p className='text-5xl font-bold'>Contact</p>
+            <p className='py-4 text-3xl'>Email to : samuelhsu.work@outloock.com</p>
           </div>
           <input className='bg-white' type="text" placeholder='Name' name='name'></input>
           <input className='my-4 p-2' bg-white type="email" placeholder='your email' name='name'></input>
