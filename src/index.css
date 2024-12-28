@@ -61,3 +61,8 @@ body[data-theme="dark"] {
   color: var(--text-color);
  
 }
+
+body {
+  overflow: hidden; /* 防止意外滾動條 */
+}
+
