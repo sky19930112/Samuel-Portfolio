@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/Samuel-Portfolio/static/css/main.a2cdf174.css",
-    "main.js": "/Samuel-Portfolio/static/js/main.05f37f9c.js",
+    "main.css": "/Samuel-Portfolio/static/css/main.288003e4.css",
+    "main.js": "/Samuel-Portfolio/static/js/main.1d7275a2.js",
+    "static/media/theme2.mkv": "/Samuel-Portfolio/static/media/theme2.e24566efebae76b5a7d2.mkv",
+    "static/media/theme.mkv": "/Samuel-Portfolio/static/media/theme.296d0bd6159b380c395b.mkv",
+    "static/media/Logo.webp": "/Samuel-Portfolio/static/media/Logo.99f16f124d7b796e6483.webp",
     "static/media/Scheduler.jpg": "/Samuel-Portfolio/static/media/Scheduler.906cc77d7ec41916c742.jpg",
     "static/media/PasswordGenerate.jpg": "/Samuel-Portfolio/static/media/PasswordGenerate.c4eb6122df097b00ca8d.jpg",
     "static/media/PopQuiz.jpg": "/Samuel-Portfolio/static/media/PopQuiz.de9c5dcaa1e865d64388.jpg",
-    "static/media/Resume.pdf": "/Samuel-Portfolio/static/media/Resume.552162dfd074eff6a609.pdf",
+    "static/media/Resume.pdf": "/Samuel-Portfolio/static/media/Resume.fcb61f968e97c95e8c4f.pdf",
     "static/media/MusicPage.png": "/Samuel-Portfolio/static/media/MusicPage.9a08e133b9618b5efef7.png",
-    "static/media/logo.png": "/Samuel-Portfolio/static/media/logo.b2a6620f742d035c7e24.png",
-    "static/media/background.jpg": "/Samuel-Portfolio/static/media/background.9b77ce87cf4033075bc0.jpg",
+    "static/media/MyHead.jpg": "/Samuel-Portfolio/static/media/MyHead.9b77ce87cf4033075bc0.jpg",
+    "static/media/Sun.svg": "/Samuel-Portfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/Samuel-Portfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/Samuel-Portfolio/index.html",
-    "main.a2cdf174.css.map": "/Samuel-Portfolio/static/css/main.a2cdf174.css.map",
-    "main.05f37f9c.js.map": "/Samuel-Portfolio/static/js/main.05f37f9c.js.map"
+    "main.288003e4.css.map": "/Samuel-Portfolio/static/css/main.288003e4.css.map",
+    "main.1d7275a2.js.map": "/Samuel-Portfolio/static/js/main.1d7275a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2cdf174.css",
-    "static/js/main.05f37f9c.js"
+    "static/css/main.288003e4.css",
+    "static/js/main.1d7275a2.js"
   ]
 }
