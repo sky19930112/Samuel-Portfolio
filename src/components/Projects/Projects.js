@@ -35,11 +35,11 @@ function Projects() {
                 </div>
                 <img src={MusicPage} className="photo" />
               <div class="btn">
-                <a href="https://github.com/sky19930112/MusicTheory">
+                <a href="https://github.com/sky19930112/MusicTheory" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
-                <a href="https://sky19930112.github.io/MusicTheory/">
+                <a href="https://sky19930112.github.io/MusicTheory/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
@@ -58,11 +58,11 @@ function Projects() {
                 </div>
               <img src={PopQuiz} className="photo" />
               <div class="btn">
-                <a href="https://github.com/sky19930112/popQuizzes">
+                <a href="https://github.com/sky19930112/popQuizzes" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
-                <a href="https://sky19930112.github.io/popQuizzes/">
+                <a href="https://sky19930112.github.io/popQuizzes/" target="_blank" rel="noopener noreferrer"> 
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
@@ -81,11 +81,11 @@ function Projects() {
                 </div>
               <img src={Scheduler} className="photo" />
               <div class="btn">
-                <a href="https://github.com/sky19930112/DailyScheduler">
+                <a href="https://github.com/sky19930112/DailyScheduler" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">GitHub</button>
                 </a>
-                <a href="https://sky19930112.github.io/DailyScheduler/">
+                <a href="https://sky19930112.github.io/DailyScheduler/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg hover:scale-125 duration-500">Deployed Website</button>
                 </a>
