@@ -38,6 +38,7 @@ const Home = () => {
 
 
   useEffect(() => {
+    //滑鼠控制
     const handleMouseMove = (event) => {
       const { clientX, clientY } = event;
       const centerX = window.innerWidth / 2;
@@ -46,10 +47,21 @@ const Home = () => {
       mouseX.set(clientX - centerX);
       mouseY.set(clientY - centerY);
     };
+    //手機觸控
+    const handleTouchMove = (event) => {
+      const touch = event.touches[0];
+      const centerX = window.innerWidth / 2;
+      const centerY = window.innerHeight / 2;
+  
+      mouseX.set(touch.clientX - centerX);
+      mouseY.set(touch.clientY - centerY);
+    };
 
     window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('touchmove', handleTouchMove);
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('touchmove', handleTouchMove);
     };
   }, [mouseX, mouseY]);
 
